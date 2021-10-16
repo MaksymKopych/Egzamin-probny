@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../background/17580.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+:root {
+    --main-color: rgb(1, 36, 186);
+    --accent-color: rgb(9, 216, 98);
+    --text-color: rgb(53, 53, 53);
+  }
