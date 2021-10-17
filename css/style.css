@@ -36,7 +36,7 @@ body{
     font-weight: 700;
     color: var(--main-color);
 }
-.menu{
+.nav-menu{
     display: flex;
     flex-direction: row;
     gap: 40px;
@@ -51,53 +51,53 @@ body{
     display: flex;
     align-items: center;
 }
-.info-small{
+.intro-small{
     color: var(--accent-color);
     font-size: 1.5rem;
     font-weight: 700;
 }
-.info-heading{
+.intro-heading{
     color: var(--main-color);
     font-size: 4rem;
     font-weight: 700;
 }
-.info-item{
+.intro-item{
     margin-top: 60px;
     display: flex;
     gap: 30px;
     color: var(--text-color);
 }
-.info-item__text{
+.intro-item__text{
     margin-top: 15px;
     font-size: 1rem;
     font-weight: 600;
 }
-.info-item__icons:nth-child(1)::before{
+.intro-item__icons:nth-child(1)::before{
     content: "\f0c2";
     font-weight: bold;
     font-size: 2rem;
     font-family: "Font Awesome 5 Free";
     color: var(--accent-color);
 }
-.info-item__icons:nth-child(2)::before{
+.intro-item__icons:nth-child(2)::before{
     content: "\f3d1";
     font-weight: bold;
     font-size: 2rem;
     font-family: "Font Awesome 5 Free";
     color: var(--accent-color);
 }
-.info-item__icons:nth-child(3)::before{
+.intro-item__icons:nth-child(3)::before{
     content: "\f2f2";
     font-weight: bold;
     font-size: 2rem;
     font-family: "Font Awesome 5 Free";
     color: var(--accent-color);
 }
-.maim__container{
+.main__container{
     align-items: flex-start;
     gap: 150px;
 }
-.intro__form{
+.form{
     flex-shrink: 0;
     background-color: white;
     padding: 30px;
